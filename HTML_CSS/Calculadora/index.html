@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="calc1" value="0" disabled="true" class="inputDisplay">
+    <table>
+
+        <tr>
+            <td><button class="btn" onclick="atualizarDisplay(7)">7</button></td>
+            <td><button class="btn" onclick="atualizarDisplay(8)">8</button></td>
+            <td><button class="btn" onclick="atualizarDisplay(9)">9</button></td>
+            <td><button class="btn" onclick="atualizaOperacao('*')">×</button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="atualizarDisplay(4)">4</button></td>
+            <td><button class="btn" onclick="atualizarDisplay(5)">5</button></td>
+            <td><button class="btn" onclick="atualizarDisplay(6)">6</button></td>
+            <td><button class="btn" onclick="atualizaOperacao('-')">−</button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="atualizarDisplay(1)">1</button></td>
+            <td><button class="btn" onclick="atualizarDisplay(2)">2</button></td>
+            <td><button class="btn" onclick="atualizarDisplay(3)">3</button></td>
+            <td><button class="btn" onclick="atualizaOperacao('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="atualizarDisplay(0)">0</button></td>
+            <td><button class="btn" onclick="limpar()">C</button></td>
+            <td><button class="btn" onclick="atualizaOperacao('/')">÷</button></td>
+            <td><button class="btn" onclick="atualizaOperacao('=')">=</button></td>
+        </tr>
+    </table>
+
+    <script src="funcoes.js">
+
+    </script>
+</html>
