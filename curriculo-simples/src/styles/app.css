@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  color: #111;
+  background-image: url("../assets/fundo.jpg");
+  background-size: 100%; 
+  background-color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu {
+  background: #ffffff;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu a.ativo {
+  color: #0077ff;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border: 1px solid #050505;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.titulo {
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.h1,h2,h3 {
+  text-decoration: underline;
+}
+
+.lista {
+  margin: 8px 0 0 18px;
+}
+
