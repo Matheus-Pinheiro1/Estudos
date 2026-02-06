@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  background: #bbb9b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.calculator {
+  background: #1a1616;
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 360px;
+}
+
+.display-wrapper {
+  margin-bottom: 32px;
+  background: #f0f0f5;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.inputDisplay {
+  width: 100%;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: right;
+  background: #f0f0f5;
+  color: #1d1d1f;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  font-family:
+    "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New",
+    monospace;
+  cursor: default;
+}
+
+.inputDisplay:disabled {
+  opacity: 1;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.btn {
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  background: #c9c9ce;
+  color: #1d1d1f;
+  box-shadow: none;
+  position: relative;
+}
+
+.btn:hover {
+  background: #e8e8ed;
+  transform: scale(0.98);
+}
+
+.btn:active {
+  background: #d8d8dd;
+  transform: scale(0.96);
+}
+
+.btn-operator {
+  background: #ff9500;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-operator:hover {
+  background: #e68900;
+  transform: scale(0.98);
+}
+
+.btn-operator:active {
+  background: #d47a00;
+  transform: scale(0.96);
+}
+
+.btn-function {
+  background: #e5e5ea;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.btn-function:hover {
+  background: #d5d5d9;
+}
+
+.btn-function:active {
+  background: #c5c5c9;
+}
+
+.btn-equals {
+  background: #34c759;
+  color: #ffffff;
+  font-weight: 600;
+  grid-column: span 1;
+}
+
+.btn-equals:hover {
+  background: #25a944;
+  transform: scale(0.98);
+}
+
+.btn-equals:active {
+  background: #1d8a34;
+  transform: scale(0.96);
+}
+
+.btn-zero {
+  grid-column: span 2;
+}

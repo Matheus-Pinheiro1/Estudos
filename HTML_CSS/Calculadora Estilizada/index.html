@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="stylesC.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display-wrapper">
+                <input type="text" id="calc1" value="0" disabled class="inputDisplay">
+            </div>
+            <div class="buttons-grid">
+                <button class="btn btn-function" onclick="limparDisplay()">C</button>
+                <button class="btn btn-function" onclick="deletarUltimo()">DEL</button>
+                <button class="btn btn-function" onclick="atualizaOperacao('%')">%</button>
+                <button class="btn btn-operator" onclick="atualizaOperacao('/')">÷</button>
+
+                <button class="btn" onclick="atualizarDisplay(7)">7</button>
+                <button class="btn" onclick="atualizarDisplay(8)">8</button>
+                <button class="btn" onclick="atualizarDisplay(9)">9</button>
+                <button class="btn btn-operator" onclick="atualizaOperacao('*')">×</button>
+
+                <button class="btn" onclick="atualizarDisplay(4)">4</button>
+                <button class="btn" onclick="atualizarDisplay(5)">5</button>
+                <button class="btn" onclick="atualizarDisplay(6)">6</button>
+                <button class="btn btn-operator" onclick="atualizaOperacao('-')">−</button>
+
+                <button class="btn" onclick="atualizarDisplay(1)">1</button>
+                <button class="btn" onclick="atualizarDisplay(2)">2</button>
+                <button class="btn" onclick="atualizarDisplay(3)">3</button>
+                <button class="btn btn-operator" onclick="atualizaOperacao('+')">+</button>
+
+                <button class="btn btn-zero" onclick="atualizarDisplay(0)">0</button>
+                <button class="btn" onclick="atualizaOperacao('.')">.</button>
+                <button class="btn btn-equals" onclick="resolver()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="funcoes.js"></script>
+</body>
+</html>
