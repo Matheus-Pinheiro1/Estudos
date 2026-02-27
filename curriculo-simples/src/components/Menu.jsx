@@ -3,10 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Menu() {
   return (
     <div className="menu">
-      <NavLink
-        to="/"
-        className={({ isActive }) => (isActive ? "ativo" : "")}
-      >
+      <NavLink to="/" className={({ isActive }) => (isActive ? "ativo" : "")}>
         Currículo
       </NavLink>
 

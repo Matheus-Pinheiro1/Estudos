@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 e510a2318d24ed4ec02fff5cc5ee120893304e65 Matheus Pinheiro <matheushenriquepls2@hotmail.com> 1767996706 -0300	branch: Created from refs/remotes/origin/homolog
+e510a2318d24ed4ec02fff5cc5ee120893304e65 35675957c3064dc93ccfcb3e19e5582b9011b9ff Matheus Pinheiro <matheushenriquepls2@hotmail.com> 1767997044 -0300	pull: Fast-forward
+35675957c3064dc93ccfcb3e19e5582b9011b9ff be0c35090c8190e92e54c8f7b60a301c7a03f0d7 Matheus Pinheiro <matheushenriquepls2@hotmail.com> 1767997297 -0300	pull: Fast-forward
+be0c35090c8190e92e54c8f7b60a301c7a03f0d7 bc328997ffbc24ff0e7ddf5fbb1d4fd0b3ec0a65 Matheus Pinheiro <matheushenriquepls2@hotmail.com> 1767997428 -0300	commit: teste06
+bc328997ffbc24ff0e7ddf5fbb1d4fd0b3ec0a65 097778939254699515b3671bf3d8ee9645126016 Matheus Pinheiro <matheushenriquepls2@hotmail.com> 1767997934 -0300	commit: Revert "teste06"
+097778939254699515b3671bf3d8ee9645126016 87ecd22f169016da2c2162b8978b609961b26e50 Matheus Pinheiro <matheushenriquepls2@hotmail.com> 1767997945 -0300	pull --tags origin homolog: Merge made by the 'ort' strategy.
+87ecd22f169016da2c2162b8978b609961b26e50 b30c4b3f1fb8a24e564da0e3d4d83904225a1edc Matheus Pinheiro <matheushenriquepls2@hotmail.com> 1767998249 -0300	merge dev: Fast-forward
